@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <title>Calulator</title>
+</head>
+<body>
+   <div class="main">
+      <input type="text" id = 'res'>
+      <div class="btn">
+         <input type="button" class="first1" value = 'C' onclick = "Clear()">
+         <input type="button" class="first2" value = '%' onclick = "Solve('%')">
+         <input type="button" class="first3" value = '←' onclick ="Back('←')">
+         <input type="button" class="first4" value = '/' onclick = "Solve('/')">
+         <br>
+         <input type="button" class="second1" value = '8' onclick = "Solve('8')">
+         <input type="button" class="second2" value = '7' onclick = "Solve('7')">
+         <input type="button" class="second3" value = '9' onclick = "Solve('9')">
+         <input type="button" class="second4" value = 'x' onclick = "Solve('*')">
+         <br>
+         <input type="button" class="third1" value = '4' onclick = "Solve('4')">
+         <input type="button" class="third2" value = '5' onclick = "Solve('5')">
+         <input type="button" class="third3" value = '6' onclick = "Solve('6')">
+         <input type="button" class="third4" value = '-' onclick = "Solve('-')">
+         <br>
+         <input type="button" class="forth1" value = '1' onclick = "Solve('1')">
+         <input type="button" class="forth2" value = '2' onclick = "Solve('2')">
+         <input type="button" class="forth3" value = '3' onclick = "Solve('3')">
+         <input type="button" class="forth4" value = '+' onclick = "Solve('+')">
+         <br>
+         <input type="button" class="fifth1" value = '00'onclick = "Solve('00')">
+         <input type="button" class="fifth2" value = '0' onclick = "Solve('0')">
+         <input type="button" class="fifth3" value = '.' onclick = "Solve('.')">
+         <input type="button" class="fifth4" value = '=' onclick = "Result()">
+      </div>
+   </div>
+   <script src = 'new.js' ></script>
+</body>
+</html>
